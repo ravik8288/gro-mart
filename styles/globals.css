@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: 'Poppins', sans-serif;
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    @apply p-0 m-0;
+  }
+
+  .header_container {
+    @apply shadow-sm;
+  }
+  .header_container > .header_logo {
+    @apply block w-max text-x-large text-primary py-4 md:py-7 px-10 md:px-28 border-r border-opacity-50 border-gray-dark;
+  }
+  .main-container {
+    @apply px-10 md:px-20 lg:px-30;
+  }
+  .text-x-large {
+    @apply text-3xl md:text-3xl lg:text-5xl xl:text-6xl;
+  }
+  .text-large {
+    @apply text-sm lg:text-2xl;
+  }
 }
-body {
-  padding: 0;
-  margin: 0;
+
+@layer components {
+  .button {
+    @apply w-max bg-primary py-3 px-8 text-large rounded-md font-custom-bold text-white shadow-button-shaddow;
+  }
 }

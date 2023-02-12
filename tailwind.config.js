@@ -12,7 +12,7 @@ module.exports = {
         primary: '#8BE989',
         secondary: '#B2B2B2',
         'gray-dark': '#979797',
-        'gray-light': '',
+        'gray-light': '#F3F3F3',
       },
       boxShadow: {
         sm: '0px 4px 10px 6px rgba(230, 230, 230, 0.24)',

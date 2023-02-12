@@ -16,6 +16,9 @@
   .header_container > .header_logo {
     @apply block w-max text-x-large text-primary py-4 md:py-7 px-10 md:px-28 border-r border-opacity-50 border-gray-dark;
   }
+  .footer_container {
+    @apply bg-gray-light px-10 md:px-20 py-10;
+  }
   .main-container {
     @apply px-10 md:px-20 lg:px-30;
   }
@@ -30,5 +33,8 @@
 @layer components {
   .button {
     @apply w-max bg-primary py-3 px-8 text-large rounded-md font-custom-bold text-white shadow-button-shaddow;
+  }
+  .text-field {
+    @apply w-max bg-white py-3 px-2 text-sm rounded-md text-black outline-primary;
   }
 }

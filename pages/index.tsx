@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import BasePage from '@/containers/BasePage';
 import CategoryList from '@/containers/Category';
@@ -11,6 +12,7 @@ export default function Home() {
         <CategoryList />
         <BasePage />
       </Main>
+      <Footer />
     </>
   );
 }

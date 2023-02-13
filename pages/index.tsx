@@ -5,6 +5,7 @@ import BestSeller from '@/containers/BestSeller';
 import CategoryList from '@/containers/Category';
 import CategoryLists from '@/containers/CategoryLists';
 import Main from '@/containers/Main';
+import OurDomains from '@/containers/OurDomains';
 import TopSearch from '@/containers/TopSearch';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <CategoryLists />
         <TopSearch />
         <BestSeller />
+        <OurDomains />
       </Main>
       <Footer />
     </>

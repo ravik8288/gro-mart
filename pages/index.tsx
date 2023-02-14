@@ -7,6 +7,7 @@ import CategoryLists from '@/containers/CategoryLists';
 import Main from '@/containers/Main';
 import OurDomains from '@/containers/OurDomains';
 import TopSearch from '@/containers/TopSearch';
+import UserIntegration from '@/containers/UserIntegration';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <CategoryLists />
         <TopSearch />
         <BestSeller />
+        <UserIntegration />
         <OurDomains />
       </Main>
       <Footer />
